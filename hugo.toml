@@ -1,0 +1,56 @@
+baseURL = "https://acaryawibawantra.vercel.app/"
+languageCode = "id"
+title = "Acarya Wibawantra"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "dark"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  description = "Portfolio and blog of Acarya Wibawantra, an Informatics Engineering student at ITS Surabaya."
+  keywords = ["Acarya Wibawantra", "Acarya", "Software Engineer", "ITS Surabaya", "Portfolio", "Blog"]
+  author = "Acarya Wibawantra"
+
+  [params.profileMode]
+    enabled = true
+    title = "About Me"
+    subtitle = """
+- 👋 Hey, I'm Acarya Wibawantra
+- 🌷 Surabaya
+- 👨‍💻 Informatics Engineering ITS
+- ☁️ Writing code as daily basis
+- ❤️ Gym & Sleep
+"""
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/acaryawibawantra"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/i-dewa-nyoman-acarya-wibawantra-708159315/"
+
+  [[params.socialIcons]]
+    name = "instagram"
+    url = "https://www.instagram.com/acarya___/"
+
+[[menu.main]]
+  name = "Archives"
+  url = "/archives/"
+  weight = 10
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 20
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

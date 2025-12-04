@@ -1,0 +1,50 @@
+/* Left-align the profile content (Title, Subtitle, Icons) while keeping the block centered */
+.profile {
+    text-align: center;
+}
+
+.profile .profile_inner {
+    display: inline-block;
+    text-align: left;
+}
+
+.profile .profile_inner ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile .profile_inner li {
+    margin-bottom: 5px;
+}
+
+/* Override vertical centering and center alignment for profile */
+.main .profile {
+    min-height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: flex-start;
+    /* Align to left */
+    text-align: left;
+}
+
+.profile .profile_inner {
+    align-items: flex-start;
+    /* Align inner items to left */
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    /* Black for light mode */
+}
+
+/* Reset to theme default in dark mode */
+body.dark .profile .profile_inner,
+[data-theme="dark"] .profile .profile_inner {
+    color: var(--content);
+}
+
+@media screen and (max-width: 768px) {
+    .profile .profile_inner {
+        font-size: 14px;
+    }
+}
