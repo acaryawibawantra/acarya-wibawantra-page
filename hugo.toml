@@ -27,7 +27,7 @@ theme = "PaperMod"
 <div class="activity-container">
   <img src="https://lanyard-profile-readme.vercel.app/api/624905173470412820?theme=dark&amp;bg=1d1e20" class="activity-widget" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=acaryawibawantra&amp;theme=dracula" class="activity-widget" />
-  <!--<img src="https://github-readme-stats-eight-theta.vercel.app/api/wakatime?username=acaryawibawantra&amp;theme=dracula&amp;bg_color=1d1e20&amp;hide_border=true" class="activity-widget" />-->
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/wakatime?username=acaryawibawantra&amp;theme=dracula&amp;bg_color=1d1e20&amp;hide_border=true&amp;range=last_year" class="activity-widget" />
 </div>
 """
 
