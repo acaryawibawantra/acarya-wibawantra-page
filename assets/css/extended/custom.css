@@ -48,3 +48,32 @@ body.dark .profile .profile_inner,
         font-size: 14px;
     }
 }
+
+/* Activity Widgets */
+.activity-container {
+    display: flex;
+    flex-direction: column;
+    /* Stack vertically for balanced look with different widths */
+    align-items: center;
+    /* Center the cards */
+    gap: 20px;
+    margin-top: 35px;
+    width: 100%;
+}
+
+.activity-widget {
+    border-radius: 0 !important;
+    /* Force square/rectangular as per user request */
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .activity-container {
+        flex-direction: column;
+    }
+
+    .activity-widget {
+        width: 100%;
+    }
+}
