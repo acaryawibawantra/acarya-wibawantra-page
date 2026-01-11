@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://acaryawibawantra.vercel.app/sitemap.xml
+
+# Allow all content for search engines
+Allow: /posts/
+Allow: /archives/
+Allow: /tags/
+Allow: /search/
+
+# Crawl-delay (optional, helps with server load)
+Crawl-delay: 1

@@ -1,7 +1,16 @@
 baseURL = "https://acaryawibawantra.vercel.app/"
-languageCode = "id"
+languageCode = "en"
+defaultContentLanguage = "en"
 title = "Acarya Wibawantra"
 theme = "PaperMod"
+enableRobotsTXT = true
+enableGitInfo = true
+
+# Sitemap configuration for SEO
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
 
 [params]
   defaultTheme = "dark"
@@ -10,9 +19,24 @@ theme = "PaperMod"
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  description = "Portfolio and blog of Acarya Wibawantra, an Informatics Engineering student at ITS Surabaya."
-  keywords = [ "I Dewa Nyoman Acarya Wibawantra", "Acarya Wibawantra", "Acarya", "Software Engineer", "ITS Surabaya", "Portfolio", "Blog"]
-  author = "Acarya Wibawantra"
+  description = "I Dewa Nyoman Acarya Wibawantra - Full Stack Developer & Informatics Engineering Student at ITS Surabaya. Portfolio, projects, and technical blog about React, Next.js, TypeScript, Golang, and web development."
+  keywords = [
+    "I Dewa Nyoman Acarya Wibawantra",
+    "Acarya Wibawantra",
+    "Acarya",
+    "Full Stack Developer Indonesia",
+    "ITS Surabaya Informatics",
+    "Web Developer Surabaya",
+    "React Developer Indonesia",
+    "Golang Developer",
+    "TypeScript Developer",
+    "Software Engineer Indonesia",
+    "Schematic ITS",
+    "PasienGigi.id",
+    "Kelarin",
+    "Student Developer Portfolio"
+  ]
+  author = "I Dewa Nyoman Acarya Wibawantra"
 
   [params.profileMode]
     enabled = true

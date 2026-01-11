@@ -1,0 +1,23 @@
+<!-- Schema.org structured data for SEO -->
+{{ partial "schema.html" . }}
+
+<!-- Open Graph meta tags for social sharing -->
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta property="og:title"
+    content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}" />
+<meta property="og:description"
+    content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:image" content="{{ .Site.BaseURL }}/images/og-image.jpg" />
+
+<!-- Twitter Card meta tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+<meta name="twitter:description"
+    content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+<meta name="twitter:image" content="{{ .Site.BaseURL }}/images/og-image.jpg" />
+
+<!-- Additional SEO meta tags -->
+<meta name="author" content="{{ .Site.Params.author }}" />
+<link rel="canonical" href="{{ .Permalink }}" />
