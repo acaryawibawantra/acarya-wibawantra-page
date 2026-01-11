@@ -77,3 +77,42 @@ body.dark .profile .profile_inner,
         width: 100%;
     }
 }
+
+/* Archives Page - Reduce top spacing for better visibility */
+.archive-year:first-child {
+    margin-top: 10px !important;
+}
+
+.archive-year {
+    margin-top: 15px !important;
+    margin-bottom: 5px !important;
+}
+
+.archive-month {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.archive-posts {
+    margin-top: 5px !important;
+}
+
+.main .archive-posts {
+    padding-top: 5px !important;
+}
+
+/* Reduce spacing between archive items */
+.archive-entry {
+    margin-bottom: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+/* Adjust page header spacing for archives */
+.page-header {
+    margin-bottom: 15px !important;
+}
+
+/* Reduce gap between different years */
+.archive-year+.archive-year {
+    margin-top: 15px !important;
+}

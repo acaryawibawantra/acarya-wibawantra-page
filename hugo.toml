@@ -11,7 +11,7 @@ theme = "PaperMod"
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   description = "Portfolio and blog of Acarya Wibawantra, an Informatics Engineering student at ITS Surabaya."
-  keywords = ["Acarya Wibawantra", "Acarya", "Software Engineer", "ITS Surabaya", "Portfolio", "Blog"]
+  keywords = [ "I Dewa Nyoman Acarya Wibawantra", "Acarya Wibawantra", "Acarya", "Software Engineer", "ITS Surabaya", "Portfolio", "Blog"]
   author = "Acarya Wibawantra"
 
   [params.profileMode]
@@ -19,15 +19,22 @@ theme = "PaperMod"
     title = "About Me"
     subtitle = """
 - 👋 Hey, I'm Acarya Wibawantra
-- 🌷 Surabaya
-- 👨‍💻 Informatics Engineering ITS
+- 🌷 Based in Surabaya, Indonesia
+- 👨‍💻 Informatics Engineering Student at ITS
+- � Full Stack Developer | CSS, JavaScript, TypeScript
 - ☁️ Writing code as daily basis
-- ❤️ Gym & Sleep
+- ❤️ Gym &amp; Cat
+
+---
+
+## 📊 GitHub Activity
 
 <div class="activity-container">
-  <img src="https://lanyard-profile-readme.vercel.app/api/624905173470412820?theme=dark&amp;bg=1d1e20" class="activity-widget" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=acaryawibawantra&amp;theme=dracula" class="activity-widget" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=acaryawibawantra&amp;theme=dracula&amp;hide_border=true&amp;area=true" class="activity-widget" />
+  
+  <!-- WakaTime Stats - Uncomment when service is fixed
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/wakatime?username=acaryawibawantra&amp;theme=dracula&amp;bg_color=1d1e20&amp;hide_border=true&amp;range=last_year" class="activity-widget" />
+  -->
 </div>
 """
 
@@ -42,6 +49,11 @@ theme = "PaperMod"
   [[params.socialIcons]]
     name = "instagram"
     url = "https://www.instagram.com/acarya___/"
+
+[[menu.main]]
+  name = "Skills"
+  url = "/posts/tech-stack/"
+  weight = 5
 
 [[menu.main]]
   name = "Archives"
