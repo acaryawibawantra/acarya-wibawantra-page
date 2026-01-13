@@ -358,3 +358,10 @@ Next.js with TypeScript provides a robust foundation for building modern web app
 - [Zod Documentation](https://zod.dev/)
 
 Happy coding! 🚀
+
+follow my sosial media 
+
+- [Instagram](https://www.instagram.com/acarya___/)
+- [LinkedIn](https://www.linkedin.com/in/i-dewa-nyoman-acarya-wibawantra-708159315/)
+- [GitHub](https://github.com/acaryawibawantra)
+
