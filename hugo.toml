@@ -27,7 +27,7 @@ enableGitInfo = true
     "acarya wibawantra",
     "acarya",
     "i dewa nyoman acarya",
-    "Alumni Sanjos"
+    "Alumni Sanjos",
     "Acarya Wibawantra",
     "Acarya Wibawantra Developer",
     "Acarya Wibawantra Portfolio",
@@ -96,11 +96,17 @@ enableGitInfo = true
 
 <div class="activity-container">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=acaryawibawantra&amp;theme=dracula&amp;hide_border=true&amp;area=true" class="activity-widget" />
-  
-  <!-- WakaTime Stats - Uncomment when service is fixed
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/wakatime?username=acaryawibawantra&amp;theme=dracula&amp;bg_color=1d1e20&amp;hide_border=true&amp;range=last_year" class="activity-widget" />
-  -->
 </div>
+
+
+<br/>
+
+## ⏱️ Coding Activity
+
+
+📊 [View WakaTime Stats →](https://wakatime.com/@acaryawibawantra)
+
+<sub>_See detailed coding hours, languages, and projects_</sub>
 """
 
   [[params.socialIcons]] 
