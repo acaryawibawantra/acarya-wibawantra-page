@@ -21,20 +21,61 @@ enableGitInfo = true
   ShowCodeCopyButtons = true
   description = "I Dewa Nyoman Acarya Wibawantra - Full Stack Developer & Informatics Engineering Student at ITS Surabaya. Portfolio, projects, and technical blog about React, Next.js, TypeScript, Golang, and web development."
   keywords = [
+    # Variasi Nama - Untuk pencarian langsung nama
     "I Dewa Nyoman Acarya Wibawantra",
+    "i dewa nyoman acarya wibawantra",
+    "acarya wibawantra",
+    "acarya",
+    "i dewa nyoman acarya",
+    "Alumni Sanjos"
     "Acarya Wibawantra",
+    "Acarya Wibawantra Developer",
+    "Acarya Wibawantra Portfolio",
     "Acarya",
+    "I Dewa Acarya",
+    "Dewa Acarya Wibawantra",
+    "A Wibawantra",
+
+    
+    # Developer Role + Nama
+    "Acarya Wibawantra Full Stack Developer",
+    "Acarya Wibawantra Software Engineer",
+    "Acarya Wibawantra Web Developer",
+    
+    # Lokasi + Nama
+    "Acarya Wibawantra Surabaya",
+    "Acarya Wibawantra Indonesia",
+    "Acarya Wibawantra ITS",
+    
+    # General Developer Keywords
     "Full Stack Developer Indonesia",
+    "Full Stack Developer Surabaya",
     "ITS Surabaya Informatics",
+    "Mahasiswa Informatika ITS",
     "Web Developer Surabaya",
-    "React Developer Indonesia",
-    "Golang Developer",
-    "TypeScript Developer",
     "Software Engineer Indonesia",
+    "Software Engineer Surabaya",
+    
+    # Tech Stack Specific
+    "React Developer Indonesia",
+    "Next.js Developer Indonesia",
+    "Golang Developer Indonesia",
+    "TypeScript Developer Indonesia",
+    "JavaScript Developer Surabaya",
+    "Frontend Developer Surabaya",
+    "Backend Developer Surabaya",
+    
+    # Projects
     "Schematic ITS",
-    "PasienGigi.id",
-    "Kelarin",
-    "Student Developer Portfolio"
+    "PasienGigi.id Developer",
+    "Kelarin Developer",
+    
+    # Long-tail Keywords
+    "Student Developer Portfolio Indonesia",
+    "ITS Student Developer",
+    "Informatics Engineering Student Portfolio",
+    "Junior Developer Indonesia",
+    "Fresh Graduate Developer Indonesia"
   ]
   author = "I Dewa Nyoman Acarya Wibawantra"
 
