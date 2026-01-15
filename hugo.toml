@@ -95,7 +95,7 @@ enableGitInfo = true
 ## 📊 GitHub Activity
 
 <div class="activity-container">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=acaryawibawantra&amp;theme=dracula&amp;hide_border=true&amp;area=true" class="activity-widget" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=acaryawibawantra&amp;theme=dracula&amp;hide_border=true&amp;area=true&amp;cache_seconds=3600" class="activity-widget" />
 </div>
 
 
