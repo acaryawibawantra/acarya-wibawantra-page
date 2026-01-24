@@ -2,7 +2,7 @@
 title: "Pengenalan Web Development: HTML, CSS, dan JavaScript"
 date: 2026-01-24
 draft: false
-tags: ["tutorial", "web development", "html", "css", "javascript"]
+tags: ["tutorial", "web development", "html", "css", "javascript", "web tutorial"]
 categories: ["Programming", "Web"]
 author: "Acarya Wibawantra"
 showToc: true
