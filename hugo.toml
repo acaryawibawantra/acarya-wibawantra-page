@@ -15,7 +15,7 @@ enableGitInfo = true
 [params]
   defaultTheme = "dark"
   ShowReadingTime = true
-  ShowShareButtons = false
+  ShowShareButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
