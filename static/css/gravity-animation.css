@@ -1,0 +1,182 @@
+/* Gravity Animation - First Visit Only */
+
+/* Loading overlay */
+.gravity-loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--theme, #1a1a1a);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+}
+
+.gravity-loading-overlay.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Animated elements */
+.gravity-animate {
+    opacity: 0;
+    transform: translateY(-100vh) rotate(-5deg);
+}
+
+/* Keyframe animations */
+@keyframes gravityFall {
+    0% {
+        opacity: 0;
+        transform: translateY(-100vh) rotate(-5deg);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateY(10px) rotate(1deg);
+    }
+
+    75% {
+        transform: translateY(-5px) rotate(-0.5deg);
+    }
+
+    90% {
+        transform: translateY(2px) rotate(0.2deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+@keyframes gravityFallSlow {
+    0% {
+        opacity: 0;
+        transform: translateY(-120vh) rotate(3deg);
+    }
+
+    65% {
+        opacity: 1;
+        transform: translateY(8px) rotate(-0.8deg);
+    }
+
+    80% {
+        transform: translateY(-4px) rotate(0.3deg);
+    }
+
+    95% {
+        transform: translateY(1px) rotate(-0.1deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+@keyframes gravityFallFast {
+    0% {
+        opacity: 0;
+        transform: translateY(-80vh) rotate(-8deg);
+    }
+
+    55% {
+        opacity: 1;
+        transform: translateY(15px) rotate(2deg);
+    }
+
+    70% {
+        transform: translateY(-8px) rotate(-1deg);
+    }
+
+    85% {
+        transform: translateY(3px) rotate(0.5deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+/* Animation classes with different timings */
+.gravity-animate.active-1 {
+    animation: gravityFall 1.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    animation-delay: 0.1s;
+}
+
+.gravity-animate.active-2 {
+    animation: gravityFallSlow 2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    animation-delay: 0.2s;
+}
+
+.gravity-animate.active-3 {
+    animation: gravityFallFast 1.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    animation-delay: 0.3s;
+}
+
+.gravity-animate.active-4 {
+    animation: gravityFall 1.9s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    animation-delay: 0.4s;
+}
+
+.gravity-animate.active-5 {
+    animation: gravityFallSlow 2.1s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    animation-delay: 0.5s;
+}
+
+/* Prevent layout shift during animation */
+body.gravity-animating {
+    overflow: hidden;
+}
+
+/* Smooth transition after animation completes */
+.gravity-animate.completed {
+    opacity: 1;
+    transform: translateY(0) rotate(0deg);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    @keyframes gravityFall {
+        0% {
+            opacity: 0;
+            transform: translateY(-100vh) rotate(-3deg);
+        }
+
+        60% {
+            opacity: 1;
+            transform: translateY(8px) rotate(0.5deg);
+        }
+
+        75% {
+            transform: translateY(-4px) rotate(-0.3deg);
+        }
+
+        90% {
+            transform: translateY(1px) rotate(0.1deg);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0) rotate(0deg);
+        }
+    }
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+    .gravity-animate {
+        animation: none !important;
+        opacity: 1 !important;
+        transform: none !important;
+    }
+
+    .gravity-loading-overlay {
+        display: none !important;
+    }
+}
