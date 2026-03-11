@@ -127,6 +127,11 @@ enableGitInfo = true
   weight = 5
 
 [[menu.main]]
+  name = "GDGOC"
+  url = "/gdgoc/"
+  weight = 6
+
+[[menu.main]]
   name = "Contact"
   url = "/contact/"
   weight = 7
