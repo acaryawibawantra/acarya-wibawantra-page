@@ -9,13 +9,13 @@ Halaman ini berisi kumpulan dokumentasi dan modul pembelajaran Web Development u
 
 ## Profil Pengajar
 
-### 1. Acarya Wibawantra
-*Core Team Divisi Curriculum Web Development GDGOC ITS*
+### 1. Ida Bagus Gde Dimas Sutha Maha
+*Webdev at ILITS and TEDx ITS 2026*
 - [LinkedIn](#) | [GitHub](#)
 - *Halo! Mari belajar membuat website interaktif dan menarik bersama-sama.*
 
-### 2. [Nama Pengajar 2]
-*Core Team Divisi Curriculum Web Development GDGOC ITS*
+### 2. Alhaura Rahmatunnisa Harsanto
+*Web Dev Curriculum GDGoC ITS*
 - [LinkedIn](#) | [GitHub](#)
 - *(Silakan isi deskripsi dan link profil di sini)*
 
