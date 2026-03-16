@@ -869,3 +869,5 @@ In JavaScript, **asynchronous programming** allows you to perform tasks that tak
 2. **Handle Errors Gracefully**: Use `.catch` with Promises or `try...catch` with `async/await`.
 3. **Keep Async Code Modular**: Break tasks into smaller functions for better readability.
 4. **Use Concurrent Operations**: Run multiple asynchronous tasks simultaneously when possible (e.g., `Promise.all`).
+
+4. **Use Concurrent Operations**: Run multiple asynchronous tasks simultaneously when possible (e.g., `Promise.all`).
