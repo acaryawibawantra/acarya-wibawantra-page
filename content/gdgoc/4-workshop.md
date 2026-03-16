@@ -16,7 +16,7 @@ Sebagai penutup modul Web Foundations, kita akan mempraktikkan semua yang telah 
 ## Live Demo
 Anda dapat melihat hasil akhir dari proyek ini secara interaktif di sini:
 👉 **[Live Demo: Event Registration](/web-foundations-workshop/)**
-- **Original Source:** [github](https://github.com/acaryawibawantra/Modul-Web-Development)
+- **Original Source:** [GITHUB](https://github.com/acaryawibawantra/Modul-Web-Development)
 
 
 ---
